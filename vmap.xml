@@ -27,7 +27,7 @@
                       <ClickThrough id="test"><![CDATA[https://example.com/click?ad=1]]></ClickThrough>
                     </VideoClicks>
                     <MediaFiles>
-                      <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" bitrate="500" scalable="true" maintainAspectRatio="true"><![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4]]></MediaFile>
+                      <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" bitrate="500" scalable="true" maintainAspectRatio="true"><![CDATA[https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_1MB.mp4]]></MediaFile>
                     </MediaFiles>
                   </Linear>
                 </Creative>
@@ -65,7 +65,7 @@
                       <ClickThrough id="test"><![CDATA[https://example.com/click?ad=2]]></ClickThrough>
                     </VideoClicks>
                     <MediaFiles>
-                      <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" bitrate="500" scalable="true" maintainAspectRatio="true"><![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4]]></MediaFile>
+                      <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" bitrate="500" scalable="true" maintainAspectRatio="true"><![CDATA[https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_1MB.mp4]]></MediaFile>
                     </MediaFiles>
                   </Linear>
                 </Creative>
@@ -103,7 +103,7 @@
                       <ClickThrough id="test"><![CDATA[https://example.com/click?ad=3]]></ClickThrough>
                     </VideoClicks>
                     <MediaFiles>
-                      <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" bitrate="500" scalable="true" maintainAspectRatio="true"><![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4]]></MediaFile>
+                      <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" bitrate="500" scalable="true" maintainAspectRatio="true"><![CDATA[https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_1MB.mp4]]></MediaFile>
                     </MediaFiles>
                   </Linear>
                 </Creative>
