@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
+
+  <!-- AD BREAK 1 -->
+  <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll-1">
+    <vmap:AdSource id="preroll-ad-1" allowMultipleAds="false" followRedirects="false">
+      <vmap:VASTAdData>
+        <VAST version="4.0" xmlns="http://www.iab.com/VAST">
+          <Ad id="test-ad-1">
+            <InLine>
+              <AdSystem version="1.0">TestAdSystem</AdSystem>
+              <AdTitle><![CDATA[Test Ad 1 - Big Buck Bunny]]></AdTitle>
+              <Description><![CDATA[Testowa reklama nr 1]]></Description>
+              <Impression id="test-impression-1"><![CDATA[https://example.com/impression?ad=1]]></Impression>
+              <Creatives>
+                <Creative id="creative-1" sequence="1">
+                  <Linear>
+                    <Duration>00:00:15</Duration>
+                    <TrackingEvents>
+                      <Tracking event="start"><![CDATA[https://example.com/track?ad=1&event=start]]></Tracking>
+                      <Tracking event="firstQuartile"><![CDATA[https://example.com/track?ad=1&event=firstQuartile]]></Tracking>
+                      <Tracking event="midpoint"><![CDATA[https://example.com/track?ad=1&event=midpoint]]></Tracking>
+                      <Tracking event="thirdQuartile"><![CDATA[https://example.com/track?ad=1&event=thirdQuartile]]></Tracking>
+                      <Tracking event="complete"><![CDATA[https://example.com/track?ad=1&event=complete]]></Tracking>
+                    </TrackingEvents>
+                    <VideoClicks>
+                      <ClickThrough id="test"><![CDATA[https://example.com/click?ad=1]]></ClickThrough>
+                    </VideoClicks>
+                    <MediaFiles>
+                      <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" bitrate="500" scalable="true" maintainAspectRatio="true"><![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4]]></MediaFile>
+                    </MediaFiles>
+                  </Linear>
+                </Creative>
+              </Creatives>
+            </InLine>
+          </Ad>
+        </VAST>
+      </vmap:VASTAdData>
+    </vmap:AdSource>
+  </vmap:AdBreak>
+
+  <!-- AD BREAK 2 -->
+  <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll-2">
+    <vmap:AdSource id="preroll-ad-2" allowMultipleAds="false" followRedirects="false">
+      <vmap:VASTAdData>
+        <VAST version="4.0" xmlns="http://www.iab.com/VAST">
+          <Ad id="test-ad-2">
+            <InLine>
+              <AdSystem version="1.0">TestAdSystem</AdSystem>
+              <AdTitle><![CDATA[Test Ad 2 - Elephants Dream]]></AdTitle>
+              <Description><![CDATA[Testowa reklama nr 2]]></Description>
+              <Impression id="test-impression-2"><![CDATA[https://example.com/impression?ad=2]]></Impression>
+              <Creatives>
+                <Creative id="creative-2" sequence="1">
+                  <Linear>
+                    <Duration>00:00:15</Duration>
+                    <TrackingEvents>
+                      <Tracking event="start"><![CDATA[https://example.com/track?ad=2&event=start]]></Tracking>
+                      <Tracking event="firstQuartile"><![CDATA[https://example.com/track?ad=2&event=firstQuartile]]></Tracking>
+                      <Tracking event="midpoint"><![CDATA[https://example.com/track?ad=2&event=midpoint]]></Tracking>
+                      <Tracking event="thirdQuartile"><![CDATA[https://example.com/track?ad=2&event=thirdQuartile]]></Tracking>
+                      <Tracking event="complete"><![CDATA[https://example.com/track?ad=2&event=complete]]></Tracking>
+                    </TrackingEvents>
+                    <VideoClicks>
+                      <ClickThrough id="test"><![CDATA[https://example.com/click?ad=2]]></ClickThrough>
+                    </VideoClicks>
+                    <MediaFiles>
+                      <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" bitrate="500" scalable="true" maintainAspectRatio="true"><![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4]]></MediaFile>
+                    </MediaFiles>
+                  </Linear>
+                </Creative>
+              </Creatives>
+            </InLine>
+          </Ad>
+        </VAST>
+      </vmap:VASTAdData>
+    </vmap:AdSource>
+  </vmap:AdBreak>
+
+  <!-- AD BREAK 3 -->
+  <vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll-3">
+    <vmap:AdSource id="preroll-ad-3" allowMultipleAds="false" followRedirects="false">
+      <vmap:VASTAdData>
+        <VAST version="4.0" xmlns="http://www.iab.com/VAST">
+          <Ad id="test-ad-3">
+            <InLine>
+              <AdSystem version="1.0">TestAdSystem</AdSystem>
+              <AdTitle><![CDATA[Test Ad 3 - For Bigger Joyrides]]></AdTitle>
+              <Description><![CDATA[Testowa reklama nr 3]]></Description>
+              <Impression id="test-impression-3"><![CDATA[https://example.com/impression?ad=3]]></Impression>
+              <Creatives>
+                <Creative id="creative-3" sequence="1">
+                  <Linear>
+                    <Duration>00:00:15</Duration>
+                    <TrackingEvents>
+                      <Tracking event="start"><![CDATA[https://example.com/track?ad=3&event=start]]></Tracking>
+                      <Tracking event="firstQuartile"><![CDATA[https://example.com/track?ad=3&event=firstQuartile]]></Tracking>
+                      <Tracking event="midpoint"><![CDATA[https://example.com/track?ad=3&event=midpoint]]></Tracking>
+                      <Tracking event="thirdQuartile"><![CDATA[https://example.com/track?ad=3&event=thirdQuartile]]></Tracking>
+                      <Tracking event="complete"><![CDATA[https://example.com/track?ad=3&event=complete]]></Tracking>
+                    </TrackingEvents>
+                    <VideoClicks>
+                      <ClickThrough id="test"><![CDATA[https://example.com/click?ad=3]]></ClickThrough>
+                    </VideoClicks>
+                    <MediaFiles>
+                      <MediaFile delivery="progressive" type="video/mp4" width="640" height="360" bitrate="500" scalable="true" maintainAspectRatio="true"><![CDATA[https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4]]></MediaFile>
+                    </MediaFiles>
+                  </Linear>
+                </Creative>
+              </Creatives>
+            </InLine>
+          </Ad>
+        </VAST>
+      </vmap:VASTAdData>
+    </vmap:AdSource>
+  </vmap:AdBreak>
+
+</vmap:VMAP>
